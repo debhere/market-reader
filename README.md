@@ -1,2 +1,2 @@
 # market-reader
-My simple AI based market reader
+This is my AI powered market reader chatbot.
