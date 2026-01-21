@@ -1,9 +1,9 @@
 import gradio as gr
 
-with gr.Blocks() as app:
-    gr.Label("bananas")
+def func(message, history):
+    return "bananas"
 
 
 if __name__ == "__main__":
-    app.launch()
+    gr.ChatInterface(fn=func).launch()
     
